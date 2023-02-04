@@ -17,8 +17,6 @@ body {
   background-color: var(--clr-backgraund-main);
 
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
 
   letter-spacing: 0.02em;
@@ -33,7 +31,7 @@ body {
 /* оформлення лого HEADER */
 
 .logo-studio {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -67,9 +65,6 @@ body {
 .site-nav.current {
   color: var(--clr-hove-beck);
 }
-.contacts {
-  font-style: normal;
-}
 .email-tell {
   color: var(--crl-secondary);
   text-decoration-line: none;
@@ -80,15 +75,16 @@ body {
 }
 
 /* Section 1 hero  */
-
+.section-hero {
+  background-color: var(--clr-primary);
+}
 .title-main {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
 
   text-align: center;
-  background-color: var(--clr-primary);
-  color: #ffffff;
+
+  color: var(--clr-liht);
 }
 
 .but-hero {
@@ -96,7 +92,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #ffffff;
+  color: var(--clr-liht);
 
   letter-spacing: 0.04em;
 
@@ -121,7 +117,6 @@ body {
 }
 /* cection work 3  */
 .title-section-work {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
 
@@ -135,7 +130,6 @@ body {
 }
 /* section 4 Our team */
 .about-team {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
 
@@ -159,8 +153,24 @@ body {
 
   color: var(--crl-secondary);
 }
-.text-footer {
+/* Footer */
+.fon-foot {
   background-color: var(--clr-primary);
+}
+.logo-studio-lihgt {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+
+  letter-spacing: 0.03em;
+
+  color: var(--clr-primary);
+  text-decoration-line: none;
+  text-transform: uppercase;
+  color: var(--clr-filtr-beck);
+}
+.text-footer {
   color: var(--clr-text-footer);
 }
 
